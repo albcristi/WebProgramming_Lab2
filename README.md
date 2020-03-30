@@ -1,2 +1,6 @@
 # WebProgramming_Lab2
 My second laboratory homework from my WP class. Introduction intro CSS
+problem 1
+Write a web page which should contain in a table person images. The table should be formatted using a style sheet. When the mouse is over a person image a div containing information about that person should pop-up.
+problem 2
+Write a web page which should contain a vertical menu. The menu should be displayed in the left side of the page and should contain at least 5 items (displayed vertically, one on top of each other) and each item should be expanded on the right side to a group of at least 5 commands.
