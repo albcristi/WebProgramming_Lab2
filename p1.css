@@ -1,0 +1,57 @@
+﻿/*3. Write a web page which should contain in a table person images. 
+The table should be formatted using a style sheet. When the mouse is
+ over a person image a div containing information about that person
+  should pop-up.
+ */
+
+.tableClass{
+    width: 90%;
+}
+
+.tableClass, .tableClass  td, .tableClass  th{
+    font-family: "Arial";
+    padding: 10px;
+}
+
+.tableClass th{
+    background-color: skyblue;
+    border-radius: 15px;
+}
+
+.tableClass th:hover{
+    box-shadow: 10px 5px 5px 5px deepskyblue;
+}
+
+.tableClass td{
+    border: 5px skyblue solid;
+    border-radius: 10px;
+    
+}
+
+img{
+    display: table-cell;
+    border-radius: 5%;
+    width: 100%;
+    padding-bottom: 5px;
+    
+}
+
+.tableClass td>.imageClass{
+   position: relative;
+}
+
+.tableClass td .hidedDiv{
+    display: none;
+}
+
+.tableClass td:hover{
+    box-shadow: 10px 5px 5px 5px deepskyblue;
+}
+.tableClass td>.imageClass:hover .hidedDiv{
+    display: block;
+    border-top: 5px skyblue solid;
+}
+
+
+
+

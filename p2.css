@@ -1,0 +1,37 @@
+﻿/*
+16. Write a web page which should contain a vertical menu.
+ The menu should be displayed in the left side of the page 
+ and should contain at least 5 items (displayed vertically,
+  one on top of each other) and each item should be expanded 
+  on the right side to a group of at least 5 commands.
+ */
+
+.mainMenuOption{
+    box-shadow: 5px 5px 5px 5px midnightblue;
+    width: 6%;
+    list-style: none;
+    border-radius: 5%;
+    
+}
+
+.mainMenu .mainMenuOption>.hidedMenu{
+    display: none;
+}
+
+.mainMenu ul{
+    list-style: none;
+    float: top;
+}
+
+.hidedMenu li {
+    box-shadow: 3px 3px 3px 3px midnightblue;
+    margin-bottom: 4%;
+}
+.mainMenu .mainMenuOption:hover{
+     background-color: dodgerblue; 
+}
+.mainMenu .mainMenuOption:hover .hidedMenu{
+    display: inline-block;
+    position: absolute;
+    margin-left: 1.5%
+}
