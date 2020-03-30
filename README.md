@@ -1,5 +1,5 @@
 # WebProgramming_Lab2
-My second laboratory homework from my WP class. Introduction intro CSS
+My second laboratory homework from my WP class. Introduction into CSS
 # First Problem
 Write a web page which should contain in a table person images. The table should be formatted using a style sheet. When the mouse is over a person image a div containing information about that person should pop-up.
 # Second Problem
